@@ -1,0 +1,144 @@
+#col10 {
+	display: inline-block;
+}
+
+.container_title {
+	width: 80%;
+	border-bottom: solid 1px #ccc;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	margin-top: 30px;
+}
+
+.list_container {
+	margin-top: 100px;
+}
+
+.list_container2 {
+	margin-left: 10%;
+	display: inline-block;
+}
+
+.project_list {
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+}
+
+h3 {
+	display: inline-block;
+}
+
+.project_category {
+	margin-top: 60px;
+}
+
+.project_cate {
+	margin-bottom: 30px;
+}
+
+
+.search_button {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.btn {
+	width: 100px;
+	height: 35px;
+}
+
+.project_cate2 {
+	padding-left: 15px;
+}
+
+.project_content_form {
+	margin-bottom: 30px;
+	padding-left: 20px;
+	height: 280px;
+	border-style: solid;
+	border-color: #bcbcbc;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+#list_col {
+	display: inline-block;
+}
+
+#col8 {
+	display: inline-block;
+}
+
+.project_content_detail {
+	height: 120px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 83%;
+	display: inline-block;
+}
+
+#list_col {
+	margin-left: 8%;
+}
+
+.project_money img, .project_time img, .project_support img {
+	width: 20px;
+	display: inline-block;
+}
+
+.project_money, .project_time, .project_support {
+	display: inline-block;
+}
+
+.project_money p, .project_time p, .project_support p {
+	display: inline-block;
+}
+
+#detail {
+	width: 100%;
+	display: inline-block;
+	height: 120px;
+	font-size: 14px;
+}
+
+.project_time {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.end_date {
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+	float: right;
+}
+
+.end_date img {
+	width: 20px;
+	display: inline-block;
+}
+
+.end_date p {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.c_detail {
+	height: 120px;
+}
+
+.project_content_form a {
+	color: black;
+}
+
+.project_array_2 a {
+	color: #6c757d;
+	font-size: 13px;
+}
+#applyShow {
+	display: inline-block;
+	width: 200px; 
+	vertical-align: top;
+	height: 50px;
+}

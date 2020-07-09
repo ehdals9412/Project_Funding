@@ -1,0 +1,203 @@
+.project_view_container {
+	margin-top: 100px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.view_title {
+	margin-left: 10%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.view_title2 p, .view_title2 span, #support {
+	display: inline-block;
+}
+
+.view_title2 {
+	margin-bottom: 10px;
+}
+
+#row {
+	display: inline-block;
+	width: 100%;
+}
+
+.view_title2 span, #support {
+	float: right;
+}
+
+#support {
+	margin-left: 20px;
+}
+
+#col2, #col10 {
+	display: inline-block;
+}
+
+#col2 {
+	float: right;
+	width: 20%;
+	min-height: 630px;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: #bcbcbc;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+#col10 {
+	float: left;
+	padding-top: 30px;
+}
+
+.client_container {
+	margin-top: 10px;
+}
+
+.client_container p {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.client_img img {
+	width: 180px;
+	height: 180px;
+	margin-bottom: 20px;
+}
+
+.client_img {
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+.star {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.project_area p {
+	display: inline-block;
+}
+
+#p {
+	float: right;
+}
+
+#p2 {
+	float: right;
+} 
+
+.project_area {
+	border-bottom: 1px solid #ccc;
+}
+
+.total_money {
+	margin-top: 10px;
+}
+
+.money {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.project_money img, .project_money p {
+	display: inline-block;
+}
+
+.project_time img, .project_time p {
+	display: inline-block;
+}
+
+.project_support img, .project_support p {
+	display: inline-block;
+}
+
+.project_money, .project_time, .project_support {
+	display: inline-block;
+}
+
+.project_money img, .project_time img, .project_support img {
+	width: 20px;
+}
+
+.project_content {
+	height: 500px;
+}
+
+.free_img img {
+	width: 100px;
+	height: 100px;
+}
+
+.comment_container > h5 {
+	margin-bottom: 20px;
+}
+
+textarea, .free_img {
+	display: inline-block;
+}
+
+.comment_container {
+	padding-bottom: 100px;
+}
+
+.project_title2 p {
+	font-size: 17px;
+}
+
+#support_id {
+	margin-left: 4%;
+}
+
+textarea {
+	width: 75%;
+}
+
+.project_support {
+	float: right;
+}
+
+.project_money, .project_time {
+	width: 33%;
+}
+
+.view_title > h3, .view_title a {
+	display: inline-block;
+}
+
+.view_title a {
+	float: right;
+	padding-top: 10px;
+	color: #4C4C4C;
+}
+
+.hidden {
+   display: none;
+} 
+
+.hidden:first-child {
+
+   display: none;
+}
+#y {
+	float: left;
+	margin-left: 15%;
+	margin-top: 60px;
+}
+
+iframe {
+	min-height: 510px;
+}
+
+.button_container {
+	min-height: 100px;
+}
+
+.partners_button {
+	min-height: 100px;
+	text-align: center;
+}
+

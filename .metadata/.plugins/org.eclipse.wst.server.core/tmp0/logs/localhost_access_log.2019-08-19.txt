@@ -1,0 +1,3 @@
+127.0.0.1 - - [19/Aug/2019:13:30:51 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:13:30:52 +0900] "GET /Project_funding/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:13:30:52 +0900] "GET /Project_funding/main.do;jsessionid=1F2D3FCD559FA0F20E5832E7A33A11AC HTTP/1.1" 500 22822

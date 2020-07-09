@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pf_evaluation">
+
+	<select id="selectEvaluation" parameterType="String" resultType="PF_EvaluationDto">
+		SELECT EVALUATION_OBJECT, ROUND(AVG(EVALUATION_ITEM1),1) as ITEM1, ROUND(AVG(EVALUATION_ITEM2),1)as ITEM2, ROUND(AVG(EVALUATION_ITEM3),1) as ITEM3
+		FROM PF_EVALUATION
+		WHERE EVALUATION_OBJECT = #{user_id}
+		GROUP BY EVALUATION_OBJECT
+	</select>
+	
+	<select id="selectEvaluationAll" resultType="PF_EvaluationDto">
+		SELECT EVALUATION_OBJECT, ROUND(AVG(EVALUATION_ITEM1),1) as ITEM1, ROUND(AVG(EVALUATION_ITEM2),1)as ITEM2, ROUND(AVG(EVALUATION_ITEM3),1) as ITEM3
+		FROM PF_EVALUATION
+		GROUP BY EVALUATION_OBJECT
+	</select>
+	
+	<insert id="insertEvaluation" parameterType="PF_EvaluationDto">
+		INSERT INTO PF_EVALUATION
+		VALUES(PF_EVALUATION_SEQ.NEXTVAL, #{evaluation_writer}, #{evaluation_object}, #{evaluation_item1}, #{evaluation_item2}, #{evaluation_item3}, #{evaluation_content})
+	</insert>
+	
+	<select id="selectAll" parameterType="String" resultType="PF_EvaluationDto">
+		SELECT *
+		FROM PF_EVALUATION
+		WHERE EVALUATION_OBJECT = #{user_id}
+	</select>
+	
+</mapper>
